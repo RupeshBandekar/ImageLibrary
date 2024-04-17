@@ -1,9 +1,10 @@
 import './App.css';
+import ImageLibrary from './ImageLibrary';
 
 function App() {
   return (
     <div className="App">
-      HELLO!
+      <ImageLibrary />
     </div>
   );
 }
