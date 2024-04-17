@@ -1,0 +1,39 @@
+.content {
+    background-color: wheat;    
+    align-content: center;
+}
+
+div img {
+    height: 350px;
+    width: 500px;
+    border-width: 5px;
+    border-color: azure;
+    border-style: solid;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: left;
+    display: inline;
+}
+
+.list-view {
+    background-color: cornsilk;
+    display: inline;
+    float: left;
+    border-width: 20px;
+    border-color: grey;
+    border-style: solid;
+    padding: 10px;
+}
+
+.left {
+    width: 30%;
+    float: left;
+}
+
+.right {
+    width: 70%;
+}
