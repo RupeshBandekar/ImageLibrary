@@ -1,7 +1,7 @@
 const sql = require("mssql/msnodesqlv8");
 
 const config = {
-    connectionString: "Driver={ODBC Driver 17 for SQL Server};Server=DESKTOP-F9K3VD8\\SQLEXPRESS;Database=ImageLibrary;Trusted_Connection=yes;",
+    connectionString: "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=ImageLibrary;Trusted_Connection=yes;",
     connectionTimeout: 30000
 }
 
