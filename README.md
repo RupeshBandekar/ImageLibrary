@@ -33,8 +33,11 @@ First of all clone the code on your local system using command `git clone https:
    
 ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/444f738c-077e-443f-abae-72f616624fef)
 
-3) Please make sure that the mentioned driver is installed on the machine.
-4) Server can be chanegd depending db server location. (this project is developed and tested on local db instance).
+3) Please make sure that the mentioned driver is installed on the machine. (Control Panel -> Administrative Tools -> ODBC Data Sources (64-bit) -> Drivers tab)
+
+   ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/32719d94-4da6-4955-a6c0-556f79a501e8)
+
+4) Server can be changed depending db server location. (this project is developed and tested on local db instance).
 
 **Once all the configuations are complete, now we can run our application:**
 1) Open a powershell or any editor window and navigate to server folder (`..\ImageLibrary\server`), and execute command `npm install`.
