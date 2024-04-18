@@ -37,7 +37,7 @@ First of all clone the code on your local system using command `git clone https:
 
    ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/32719d94-4da6-4955-a6c0-556f79a501e8)
 
-4) Server can be changed depending db server location. (this project is developed and tested on local db instance).
+4) `Server` in connection string can be changed depending db server location. (this project is developed and tested on local db instance).
 
 **Once all the configuations are complete, now we can run our application:**
 1) Open a powershell or any editor window and navigate to server folder (`..\ImageLibrary\server`), and execute command `npm install`.
