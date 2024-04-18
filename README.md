@@ -14,6 +14,7 @@
 5) driver: Microsoft ODBC Driver 17 for SQL Server
 
 First of all clone the code on your local system using command `git clone https://github.com/RupeshBandekar/ImageLibrary.git`
+
 ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/32f2a17b-c17e-4cb9-95ae-c15ace340979)
 
 **Please follow below database configuration steps:**
@@ -29,6 +30,7 @@ First of all clone the code on your local system using command `git clone https:
 1) DB config is stored in file at location (`..\ImageLibrary\server\config\db.config.js`).
 2) In the file, connectionString property in config is set with default values as
    ```Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=ImageLibrary;Trusted_Connection=yes;```.
+   
 ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/444f738c-077e-443f-abae-72f616624fef)
 
 3) Please make sure that the mentioned driver is installed on the machine.
@@ -36,15 +38,19 @@ First of all clone the code on your local system using command `git clone https:
 
 **Once all the configuations are complete, now we can run our application:**
 1) Open a powershell or any editor window and navigate to server folder (`..\ImageLibrary\server`), and execute command `npm install`.
+   
    ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/50811e25-2878-4373-9f5e-63489767cd4b)
 
 2) Navigate to client folder (`..\ImageLibrary\client`) in powershell or any editor, and execute command `npm install`. Close the window.
+   
    ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/356bc366-4c64-4c92-891b-4f119f49466b)
 
 3) Open a new powershell or any editor window, navigate to server folder (`..\ImageLibrary\server`) and execute command `npm start`.
+   
    ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/d1ab757d-7127-48f3-8bd0-fdddf841415d)
 
 4) Open a new powershell or any editor window, navigate to client folder (`..\ImageLibrary\client`) and execute command `npm start`.
+   
    ![image](https://github.com/RupeshBandekar/ImageLibrary/assets/49030092/a03f6830-2258-4a00-b5e3-cd99713b175a)
 
 
