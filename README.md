@@ -1,4 +1,11 @@
 # ImageLibrary
+**Scopes covered are as follows:**
+1) Favourite an image: only one image can be marked as favourite at a time
+2) Assign a title: user can enter title in textbox
+3) Add a source for the image (like Giphy, Shutterstock etc...): user can select source of image from dropdown list
+4) Add a location to the image: user can select city from dropdown list
+5) Debouncing mechanism to sync the client side state to the backend every 30s once any change made
+   
 **Versions of development tools used is as follows:**
 1) node: v20.11.0
 2) npm: 10.2.4
